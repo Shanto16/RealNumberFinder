@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    android:orientation="vertical"
+    tools:context="com.realnumberfinder.aos.realnumberfinder.searchPage">
+
+    <SearchView
+        android:id="@+id/searchView"
+        android:background="@color/search"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:queryHint="Search">
+    </SearchView>
+
+
+    <ListView
+        android:padding="4dp"
+        android:id="@+id/searchResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp">
+    </ListView>
+
+
+</LinearLayout>
