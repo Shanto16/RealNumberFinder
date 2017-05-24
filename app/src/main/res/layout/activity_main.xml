@@ -13,6 +13,7 @@
         android:layout_width="100dp"
         android:layout_height="60dp"
         android:text=""
+        android:drawableLeft="@android:drawable/ic_menu_search"
         android:background="@drawable/searchbutton"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent"
